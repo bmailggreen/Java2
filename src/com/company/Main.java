@@ -51,7 +51,7 @@ public class Main {
 
         System.out.println("\tKellemes ünnepeket mindenkinek!"+System.lineSeparator()+"\tJAVA20");
 
-        String koszones = "Sziasztok!";
+        String koszones = "Helló, sziasztok!";
 
         int calcResAdd = addition(11, 49);
         System.out.println("11 + 49 = " + calcResAdd);
