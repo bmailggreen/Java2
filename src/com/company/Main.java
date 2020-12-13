@@ -2,17 +2,17 @@ package com.company;
 
 public class Main {
 
-    //gy?kvon?s
-    private static double SqrRootOf(double numIn) {
-        double sqrt=0;
-        if (numIn<0) {
-            System.out.println("Number cant be negative");
-        }
-        else {
-            sqrt=Math.sqrt(numIn);
-        }
-        return sqrt;
-    }
+	//gy�kvon�s
+		private static double SqrRootOf(double numIn) {
+			double sqrt=0;
+			if (numIn<0) {
+				System.out.println("Number cant be negative");
+			}
+			else {
+				sqrt=Math.sqrt(numIn);
+			}
+			return sqrt;
+		}
 
     public static int addition(int a, int b) {
         return a + b;
@@ -73,6 +73,5 @@ public class Main {
         System.out.println(koszones);
         System.out.println(SqrRootOf(9));
     }
-
 
 }
