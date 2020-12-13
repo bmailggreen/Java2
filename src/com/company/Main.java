@@ -9,7 +9,15 @@ public class Main {
 
     public static void main(String[] args) {
 
+        String koszones = "Hello!";
+
         int calcResAdd = addition(11, 49);
         System.out.println("11 + 49 = " + calcResAdd);
+
+        kiir(koszones);
+    }
+
+    private static void kiir(String koszones) {
+        System.out.println(koszones);
     }
 }
