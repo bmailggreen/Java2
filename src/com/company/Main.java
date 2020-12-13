@@ -20,4 +20,11 @@ public class Main {
     private static void kiir(String koszones) {
         System.out.println(koszones);
     }
+
+    private static double multiply(double a, double b){
+        if (a==0 || b==0)
+            return 0;
+
+        return a*b;
+    }
 }
