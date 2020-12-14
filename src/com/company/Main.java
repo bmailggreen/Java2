@@ -73,5 +73,7 @@ public class Main {
         System.out.println(koszones);
         System.out.println(SqrRootOf(9));
     }
-
+    public static double substraction(double a,double b){
+		    return a-b;
+    }
 }
