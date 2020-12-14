@@ -2,7 +2,6 @@ package com.company;
 
 public class Main {
 
-	//gy�kvon�s
 		private static double SqrRootOf(double numIn) {
 			double sqrt=0;
 			if (numIn<0) {
@@ -16,7 +15,6 @@ public class Main {
 
     public static int addition(int a, int b) {
         return a + b;
-
     }
 
     public static double david_power(double value,int power)
@@ -43,8 +41,6 @@ public class Main {
 
         return a*b;
     }
-
-
 
 
     public static void main(String[] args) {
